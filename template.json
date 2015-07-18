@@ -12,6 +12,7 @@
             "type": "shell",
             "scripts": [
                 "scripts/base.sh",
+                "scripts/sudo.sh",
                 "scripts/virtualbox.sh",
                 "scripts/vmware.sh",
                 "scripts/vagrant.sh",
