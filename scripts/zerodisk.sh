@@ -8,3 +8,4 @@ rm -f /EMPTY
 sync
 sync
 sync
+

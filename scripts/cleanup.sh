@@ -1,5 +1,11 @@
 #!/bin/bash
 
+apt-get -y autoremove
+apt-get -y clean
+
+# Remove temporary files
+rm -rf /tmp/*
+
 # Removing leftover leases and persistent rules
 echo "cleaning up dhcp leases"
 rm /var/lib/dhcp/*
@@ -13,3 +19,4 @@ rm /lib/udev/rules.d/75-persistent-net-generator.rules
 
 echo "Adding a 2 sec delay to the interface up, to make the dhclient happy"
 echo "pre-up sleep 2" >> /etc/network/interfaces
+
