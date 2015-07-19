@@ -42,7 +42,7 @@
                 "keyboard-configuration/modelcode=SKIP keyboard-configuration/layout=USA keyboard-configuration/variant=USA console-setup/ask_detect=false ",
                 "initrd=/install/initrd.gz -- <enter>"
             ],
-            "headless": false,
+            "headless": true,
             "boot_wait": "10s",
             "disk_size": 20480,
             "guest_os_type": "Ubuntu_64",
@@ -72,7 +72,7 @@
             "boot_wait": "10s",
             "disk_size": 20480,
             "guest_os_type": "Ubuntu-64",
-            "headless": false,
+            "headless": true,
             "http_directory": "http",
             "iso_checksum": "8acd2f56bfcba2f7ac74a7e4a5e565ce68c024c38525c0285573e41c86ae90c0",
             "iso_checksum_type": "sha256",

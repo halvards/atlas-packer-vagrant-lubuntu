@@ -1,3 +1,6 @@
+#!/bin/bash
+
+# Ensure vagrant user can sudo without password
 groupadd -r admin
 usermod -a -G admin vagrant
 cp /etc/sudoers /etc/sudoers.orig
